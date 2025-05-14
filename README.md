@@ -55,7 +55,9 @@ We fine-tuned a **ResNet-18** model from `torchvision.models` using the followin
 ## 🩺 Inference – Disease Prediction
 
 A trained model (`best_model.pt`) can be used to predict the class of a new lesion image.
-Model Link : https://www.kaggle.com/models/sametcansahin/skin_lesion_resnet18_szm/
+-Model Link : https://www.kaggle.com/models/sametcansahin/skin_lesion_resnet18_szm/
+-Dataset : https://kaggle.com/datasets/1698212edc36aeecd06eb2f7c700add50b0499daf2765716de4d649ef70630e5
+
 ### Example Code:
 
 ```python
