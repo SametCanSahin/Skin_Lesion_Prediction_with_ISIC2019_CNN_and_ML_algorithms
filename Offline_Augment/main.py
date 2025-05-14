@@ -25,7 +25,7 @@ def save_augmented(image, save_path, count):
     out_path = os.path.join(save_path, f"aug_{count}.jpg")
     cv2.imwrite(out_path, augmented)
 
-# ---------- Her sınıf için işlemleri başlat ----------
+# ---------- Her sınıf için işlemler----------
 for class_name in os.listdir(input_dir):
     class_path = os.path.join(input_dir, class_name)
     if not os.path.isdir(class_path):
